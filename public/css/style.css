@@ -1,0 +1,36 @@
+/* image preview */
+
+#image-preview{
+    width: 100%;
+    padding:0;
+    height: 197px;
+    margin:0;
+    border-radius: 5px;
+}
+
+#label-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:lightblue;
+    color:white;
+    font-size: 14px;
+    opacity: 0.75;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#label-button:hover{
+    background-color:grey;
+}
+
+#image-container{
+    position: relative;
+    border : 1px solid lightgrey;
+    border-radius: 5px;
+    height: 200px;
+}
